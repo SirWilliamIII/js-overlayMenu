@@ -4,6 +4,7 @@ body {
     padding: 0
     
 }
+
 h1 {
     
     font-size: 70px;
@@ -11,6 +12,7 @@ h1 {
     text-align: center;
     margin-top: 250px;
 }
+
 .button {
     
     font-size: 50px;
@@ -20,15 +22,18 @@ h1 {
     z-index: 999;
     
 }
+
 .button a {
     text-decoration: none;
 }
+
 .btn-open:after {
     font-family: "FontAwesome";
     content:"\f0c9";
     color: #333;
     transition: color .2s;
-} 
+}
+ 
 .btn-open:hover:after {
     color: #1c9769;
 }
